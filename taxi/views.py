@@ -29,7 +29,7 @@ class CarListView(generic.ListView):
 
 
 class CarDetailView(generic.DetailView):
-    model = Driver
+    model = Car
     template_name = "taxi/car_detail.html"
 
 
